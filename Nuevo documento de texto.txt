@@ -1,5 +1,5 @@
 int ultraSonido(){
   digitalWrite(trig,1);delay(1);digitalWrite(trig,0);//se genera un pulso en el ultrasonido emisor
   int tiempo = pulseIn(eco,1);//se lee cuanto tarda el receptor en detectar la onda
-  return tiempo;
+  return tiempo;//oh yes
 }
